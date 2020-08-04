@@ -4,7 +4,7 @@ public class Inferencia {
 
 	public static void main(String[] args) {
 		
-		double a = 4.5;
+		double a = 4.5;   // declaração e inicialização.
 		System.out.println(a);
 		
 		var b = 4.5;
