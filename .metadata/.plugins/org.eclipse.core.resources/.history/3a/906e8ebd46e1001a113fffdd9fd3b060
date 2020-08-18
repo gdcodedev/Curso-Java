@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class TipoString2 {
+	
+	public static void main(String[] args) {
+		
+		var nome = "Guilherme";
+		var sobrenome = "Cardoso";
+		var idade = 29;
+		var salario = 0; 
+		
+		System.out.printf(" O Senhor %s %s, nome, sobrenome ", args);
+	}
+	
+
+
+}
