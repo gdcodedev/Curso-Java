@@ -8,7 +8,9 @@ public class Wrappers {
 		
 		
 		
-		// byte
+		// byte aprendendo sobre Wrappers
+		// Wrappers nada mais é que a conversão de primitivos para objeto.
+
 		
 		Byte b = 100;
 		Short s = 1000;
