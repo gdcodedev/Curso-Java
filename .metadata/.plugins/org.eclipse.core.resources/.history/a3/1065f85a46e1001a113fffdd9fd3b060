@@ -1,0 +1,19 @@
+package fundamentos;
+
+public class TipoString2 {
+	
+	public static void main(String[] args) {
+		
+		var nome = "Guilherme";
+		var sobrenome = "Cardoso";
+		var idade = 29;
+		var salario = 0;
+		
+		
+		System.out.Printf("O Senhor %s %s tem %s anos, e ganha R$%.2f ")		
+		
+	}
+	
+
+
+}
