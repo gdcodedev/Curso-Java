@@ -3,19 +3,20 @@ package fundamentos;
 import java.util.Scanner;
 
 public class DesafioConversao2 {
-// FixaÁ„o de exercicio Desafio convers„o
-    //Foi utilizado o cÛdigo a seguir.
+//  Fixa√ß√£o de exercicio Desafio conversÔøΩo
+// Foi utilizado o c√≥digo a seguir.
+// Terminei o desafio.
 
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Informe o primeiro sal·rio: ");
+        System.out.println("Informe o primeiro sal√°rio: ");
         String valor1 = entrada.next().replace(",", ".");
 
-        System.out.println("Informe o segundo sal·rio: ");
+        System.out.println("Informe o segundo sal√°rio: ");
         String valor2 = entrada.next().replace(",", ".");
 
-        System.out.println("Informe o terceiro sal·rio: ");
+        System.out.println("Informe o terceiro sal√°rio: ");
         String valor3 = entrada.next().replace(",", ".");
 
         double salario1 = Double.parseDouble(valor1);
@@ -23,7 +24,7 @@ public class DesafioConversao2 {
         double salario3 = Double.parseDouble(valor3);
 
         double media = (salario1 + salario2 + salario3 /3);
-        System.out.println("O sal·rio È de: " + media);
+        System.out.println("O sal√°rio √© de: " + media);
 
         entrada.close();
 

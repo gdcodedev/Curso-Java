@@ -22,10 +22,11 @@ Operadores aritiméticos código:
         System.out.println(a - b);
         System.out.println(a  * b);
         System.out.println(a  /  b);
-        System.out.println(a  / (double) b);
+        System.out.println(a  / (double) b); //CAST caso queira conventer para double
 
         System.out.println(8 % 3);
         System.out.println(a % b);
+        System.out.println( x + y - a * b);
 
     }
 }
