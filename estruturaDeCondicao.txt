@@ -1,0 +1,30 @@
+### Estruturas de condição
+
+- O que é estrutura de condição?
+
+Estrutura de condição é responsável por fazer desvio do fluxo de execução do código de acordo com uma dada condição.
+
+ Tipos de estrutura de condição:
+
+-  if - else
+- switch - case
+
+
+<code>
+  public class Order {
+
+    // Outros atributos
+
+    private final double  totalValue;
+
+    // Outros métodos
+
+    public double calculateFee() {
+      if (this.totalValue  > 100 ) {
+        return this.totalValue * 0.99;
+      } else {
+        return this.totalValue;
+      }
+    }
+  }
+</code>

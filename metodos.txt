@@ -1,0 +1,7 @@
+### Métodos
+
+- Tipos de métodos 
+
+- Métodos contrutores - Definem como uma classe será insttanciada "constuída";
+- Métodos comum - Definem comportamentos que podem ou não estar atribuídas às regras de negócio. 
+Ex: calcular taxas de um pedido etx;
