@@ -32,3 +32,7 @@ Base do curso :
 - JPA (Hibernate)
 
 - Spring Boot
+
+
+## Atalhos para o IntelliJ
+[Link - Atalhos IntelliJ](http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea)
