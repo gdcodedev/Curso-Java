@@ -1,17 +1,16 @@
 public class metodos {
 
+  // Outros atributos
 
-    // Outros atributos
+  private final double totalValue;
 
-    private final double  totalValue;
+  // Outros métodos
 
-    // Outros métodos
-
-    public double calculateFee() {
-      if (this.totalValue  > 100 ) {
-        return this.totalValue * 0.99;
-      } else {
-        return this.totalValue;
-      }
+  public double calculateFee() {
+    if (this.totalValue > 100) {
+      return this.totalValue * 0.99;
+    } else {
+      return this.totalValue;
     }
   }
+}
